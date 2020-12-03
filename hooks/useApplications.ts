@@ -10,7 +10,7 @@ export const useApplications = (restaurant:String) => {
     const [applications, setApplications] = useState<Application[]>([])
     // const [restaurantId] = useState(restaurant);
     useEffect(() => {
-        const subscribe = getAllApplicantsForRestaurant()?.where('restaurant', '==', restaurant)
+        const subscribe = getAllApplicantsForRestaurant()?.where('restaurant', '==', restaurant.trim())
         .get()
         .then(querySnapshot => {
             const applicants:Application[] = [];
