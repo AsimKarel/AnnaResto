@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>115935680141-5kqtkrfmfm11gnc9jqhikut8oitlig6f.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.115935680141-5kqtkrfmfm11gnc9jqhikut8oitlig6f</string>
+	<key>API_KEY</key>
+	<string>AIzaSyA4WinEQKjGRAmO3uIM-7PN34IfT6Hygjs</string>
+	<key>GCM_SENDER_ID</key>
+	<string>115935680141</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.asim.annaresto</string>
+	<key>PROJECT_ID</key>
+	<string>annaresto-8bc8b</string>
+	<key>STORAGE_BUCKET</key>
+	<string>annaresto-8bc8b.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:115935680141:ios:93d50f93b8f17eda41b4c4</string>
+	<key>DATABASE_URL</key>
+	<string>https://annaresto-8bc8b.firebaseio.com</string>
+</dict>
+</plist>
