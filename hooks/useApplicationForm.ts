@@ -9,13 +9,16 @@ interface ApplicationForm {
   title: string;
 }
 
+const token = "e0ab9219-e3b1-4012-932d-c62dc08d99f2";
+const URL = 'https://us-central1-code-challenge-anna.cloudfunctions.net/giveMeThatApplicationPlease';
+
 export function useApplicationForm() {
   const [data, setData] = useState<Field[]>([]);
   const [loading, setLoading] = useState<boolean>(false);
   useEffect(() => {
     setLoading(true)
-    axios.post('https://us-central1-code-challenge-anna.cloudfunctions.net/giveMeThatApplicationPlease',
-    {"token": "e0ab9219-e3b1-4012-932d-c62dc08d99f2"})
+    axios.post(URL,
+    {"token": token})
     .then((response:any) => {
         let fields:Field[] = [];
         const _data = response.data;
